@@ -21,7 +21,7 @@ function Navigation(props) {
             <Link to={'/'}>
                 <div className="logo">
                     <img src={logo} alt="Logo" />
-                    <h4>Movie Amaze</h4>
+                    <h4>MovieAmaze</h4>
                 </div>
             </Link>
             <form onSubmit={submitHandler}>
