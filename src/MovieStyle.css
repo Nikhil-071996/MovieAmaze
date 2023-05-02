@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  html{
+    font-size: 10px;
+    font-family: 'DM Sans';
+  }
+  
+  #movie-overlay{
+    background-color: #000;
+    margin-bottom: 3rem;
+  }
+
+.poster{
+    height: 100vh;
+    width: 100vw;
+  }
+  .poster .overlay{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to left top, rgb(0, 0, 0 , 0.5), rgb(0, 0, 0 , 0.5));
+    /* background: red; */
+    position: absolute;
+    top: 0;
+    z-index: 10;
+  }
+  .poster img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .container{
+    width: 100vw;
+    color: #fff;
+    position: relative;
+    top: -20vh;
+    z-index: 100;
+  }
+  .container .title{
+    padding: 0 0 3rem 0 ; 
+    font-size: 2.5rem;
+    color: #fff;
+    border-bottom: 1px solid #ffffff4f;
+  }
+  .container .row1{
+    display: flex;
+    padding: 2.5rem 0;
+    gap: 3.5rem;
+    border-bottom: 1px solid #ffffff4f;
+  }
+  .container .row1 .col1{
+    width: 30%;
+  }
+  .container .row1 .col1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .container .row1 .col2{
+    width: 80%;
+  }
+  .container .row1 .col2 .title2{
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+    font-size: 2.5rem;
+    border-bottom: 1px solid #ffffff4f;
+    padding-bottom: 2.5rem;
+  }
+  .container .row1 .col2 .title2 span{
+    border: 1px solid #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .container .row1 .col2 .genre{
+    font-size: 2rem;
+    padding: 2.5rem 0;
+    border-bottom: 1px solid #ffffff4f;
+  }
+  .container .row1 .col2 .summary h2{
+    font-size: 2.5rem;
+    padding: 2.5rem 0;
+  }
+  .container .row1 .col2 .summary p{
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 2.5rem 0;
+  
+  }
