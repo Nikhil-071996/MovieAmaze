@@ -20,7 +20,6 @@ function FeaturedMovies(props) {
         let res = await fetch(`https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${process.env.REACT_APP_API_KEY}&language=en-US&page=6`)
         let data = await res.json()
         setFeaturedMovies(data.results)
-        console.log(data.results[0])
     }
 
     async function  fetchGenre(){

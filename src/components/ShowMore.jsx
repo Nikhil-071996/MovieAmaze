@@ -47,8 +47,8 @@ function ShowMore(props) {
 
                                 let  filteredGenreNames = filteredGenre.map((g) => g.name)
                                 return(
-                                    <Link to={'/Movies/' + movie.id} >
-                                        <div className="card-list" key ={movie.id}>
+                                    <Link to={'/Movies/' + movie.id} key={movie.id}>
+                                        <div className="card-list" >
                                             <img src={image_path + movie.poster_path} alt={movie.title}/>
                                             <div className="movie-info">
                                                 <h6>Release in Year : {movie.release_date.split('-')[0]}</h6>
@@ -72,8 +72,8 @@ function ShowMore(props) {
 
                                 let  filteredGenreNames = filteredGenre.map((g) => g.name)
                                 return(
-                                    <Link to={'/Movies/' + movie.id} >
-                                        <div className="card-list" key ={movie.id}>
+                                    <Link to={'/Movies/' + movie.id} key ={movie.id}>
+                                        <div className="card-list" >
                                             <img src={image_path + movie.poster_path} alt={movie.title}/>
                                             <div className="movie-info">
                                                 <h6>Release in Year : {movie.release_date.split('-')[0]}</h6>
