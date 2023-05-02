@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MovieAmaze-/static/css/main.9af79917.css",
-    "main.js": "/MovieAmaze-/static/js/main.9fd4a2f0.js",
-    "static/js/787.ae21c285.chunk.js": "/MovieAmaze-/static/js/787.ae21c285.chunk.js",
-    "static/media/John-wick-poster.png": "/MovieAmaze-/static/media/John-wick-poster.a37f7a10b6a2578ccf01.png",
-    "static/media/Avengers-endgame-poster.jpg": "/MovieAmaze-/static/media/Avengers-endgame-poster.3a9d73c25319d7d713ff.jpg",
-    "static/media/Avatar-2-poster.jpg": "/MovieAmaze-/static/media/Avatar-2-poster.dff1091020a01d6286b8.jpg",
-    "index.html": "/MovieAmaze-/index.html",
-    "main.9af79917.css.map": "/MovieAmaze-/static/css/main.9af79917.css.map",
-    "main.9fd4a2f0.js.map": "/MovieAmaze-/static/js/main.9fd4a2f0.js.map",
-    "787.ae21c285.chunk.js.map": "/MovieAmaze-/static/js/787.ae21c285.chunk.js.map"
+    "main.css": "/MovieAmaze/static/css/main.6c97fb69.css",
+    "main.js": "/MovieAmaze/static/js/main.e51f68f7.js",
+    "static/js/787.ae21c285.chunk.js": "/MovieAmaze/static/js/787.ae21c285.chunk.js",
+    "static/media/John-wick-poster.png": "/MovieAmaze/static/media/John-wick-poster.a37f7a10b6a2578ccf01.png",
+    "static/media/Avengers-endgame-poster.jpg": "/MovieAmaze/static/media/Avengers-endgame-poster.3a9d73c25319d7d713ff.jpg",
+    "static/media/Avatar-2-poster.jpg": "/MovieAmaze/static/media/Avatar-2-poster.dff1091020a01d6286b8.jpg",
+    "index.html": "/MovieAmaze/index.html",
+    "main.6c97fb69.css.map": "/MovieAmaze/static/css/main.6c97fb69.css.map",
+    "main.e51f68f7.js.map": "/MovieAmaze/static/js/main.e51f68f7.js.map",
+    "787.ae21c285.chunk.js.map": "/MovieAmaze/static/js/787.ae21c285.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9af79917.css",
-    "static/js/main.9fd4a2f0.js"
+    "static/css/main.6c97fb69.css",
+    "static/js/main.e51f68f7.js"
   ]
 }
