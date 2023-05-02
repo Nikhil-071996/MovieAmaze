@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1570dfbd.css",
+    "main.js": "/static/js/main.ad1333ba.js",
+    "static/js/787.ae21c285.chunk.js": "/static/js/787.ae21c285.chunk.js",
+    "static/media/John-wick-poster.png": "/static/media/John-wick-poster.a37f7a10b6a2578ccf01.png",
+    "static/media/Avengers-endgame-poster.jpg": "/static/media/Avengers-endgame-poster.3a9d73c25319d7d713ff.jpg",
+    "static/media/Avatar-2-poster.jpg": "/static/media/Avatar-2-poster.dff1091020a01d6286b8.jpg",
+    "index.html": "/index.html",
+    "main.1570dfbd.css.map": "/static/css/main.1570dfbd.css.map",
+    "main.ad1333ba.js.map": "/static/js/main.ad1333ba.js.map",
+    "787.ae21c285.chunk.js.map": "/static/js/787.ae21c285.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1570dfbd.css",
+    "static/js/main.ad1333ba.js"
+  ]
+}
