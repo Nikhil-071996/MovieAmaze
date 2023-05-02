@@ -22,6 +22,7 @@ a:hover{
   text-decoration: none;
   color: inherit;
 }
+
 nav {
   background-color: transparent;
   width: 100vw;
@@ -96,8 +97,8 @@ nav form img{
 }
   .carousel  .description h1{
   font-weight: 700;
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
   padding-bottom: 1.6rem;
 }
   .carousel  .description .rating{
@@ -122,8 +123,8 @@ nav form img{
   .carousel  .description p{
   width: 30.2rem;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
 }
   .carousel  .description .btn{
   display: flex;
@@ -137,7 +138,7 @@ nav form img{
   text-transform: uppercase;
   border-radius: 0.6rem;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
   #first-slide{
@@ -168,6 +169,7 @@ nav form img{
 .title{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0 9.8rem 4.4rem;
 }
 .title h2{
@@ -180,6 +182,9 @@ nav form img{
   font-size: 1.8rem;
   line-height: 2.4rem;
   color: #BE123C;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
 }
 .movie-list{
   display: flex;
@@ -274,8 +279,8 @@ footer .social svg:hover{
 
 footer .links{
   font-weight: 700;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
   display: flex;
   gap: 4.8rem;
 }
@@ -286,7 +291,153 @@ footer .links a{
 footer .copyright{
   margin: 3.6rem 0 6.25rem;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
   color: #6B7280;
+}
+
+
+  /* Media Query */
+
+
+@media (max-Width : 2560px) {
+  html{
+    font-size: 18px;
+  }
+}
+
+@media (max-Width : 1800px) {
+  html{
+    font-size: 15px;
+  }
+}
+@media (max-Width : 1440px) {
+  html{
+    font-size: 10px;
+  }
+  .carousel  .description{
+    margin-top: 25rem;
+  }
+}
+@media (max-Width : 1024px) {
+  .carousel {
+    width: 100%;
+    height: 50vh;
+    color: #fff;
+  }
+  .carousel  .description{
+    margin-top: 10rem;
+  }
+}
+@media (max-Width : 940px) {
+  html{
+    font-size: 8.5px;
+  }
+  .carousel {
+    width: 100%;
+    height: 40vh;
+    color: #fff;
+  }
+  .carousel  .description{
+    margin-top: 10rem;
+  }
+  nav form{
+    width: 40rem;
+  }
+  .carousel  .description .btn{
+    
+    width: 17rem;
+  }
+}
+@media (max-Width : 740px) {
+  html{
+    font-size: 8px;
+  }
+}  
+@media (max-Width : 660px) {
+  html{
+    font-size: 7px;
+  }
+  .carousel {
+    width: 100%;
+    height: 30vh;
+    color: #fff;
+
+  }
+  .carousel  .description{
+    opacity: 0;
+  }
+  nav{
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+  nav .logo h4{
+    display: none;
+  }
+  nav form{
+    width: 30rem;
+  }
+  
+  .title{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+  .movie-list{
+    gap: 0rem;
+  }
+  .movie-list .movies-cards.search{
+    width: 95vw;
+    margin: 1rem auto;
+
+  }
+}
+
+@media (max-Width : 582px) {
+  html{
+    font-size: 6.5px;
+  }
+}
+@media (max-Width : 540px) {
+  html{
+    font-size: 6.3px;
+  }
+}
+@media (max-Width : 526px) {
+  html{
+    font-size: 6.2px;
+  }
+}
+@media (max-Width : 340px) {
+  html{
+    font-size: 6px;
+  }
+  .carousel {
+    width: 100%;
+    height: 30vh;
+    color: #fff;
+
+  }
+  .carousel  .description{
+    opacity: 0;
+  }
+  nav{
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+  nav .logo h4{
+    display: none;
+  }
+  nav form{
+    width: 30rem;
+  }
+  
+  .title{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+  .movie-list{
+    gap: 0rem;
+  }
 }

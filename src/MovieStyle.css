@@ -1,15 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-  }
-  html{
-    font-size: 10px;
-    font-family: 'DM Sans';
-  }
-  
+
   #movie-overlay{
     background-color: #000;
     margin-bottom: 3rem;
@@ -94,3 +83,39 @@
     padding: 2.5rem 0;
   
   }
+
+
+  /* Media Query */
+
+  @media (max-Width : 1024px) {
+    .poster{
+      height: 50vh;
+    }
+    .poster .overlay{
+      height: 50vh;
+    }
+  }
+  
+  @media (max-Width : 582px) {
+    .poster{
+      height: 40vh;
+    }
+    .poster .overlay{
+      height: 40vh;
+    }
+    .container .row1{
+      flex-direction: column;
+      padding: 2.5rem;
+    }
+  }
+  
+  @media (max-Width : 340px) {
+    .poster{
+      height: 35vh;
+    }
+    .poster .overlay{
+      height: 35vh;
+    }
+  }
+
+
