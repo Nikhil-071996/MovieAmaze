@@ -2,6 +2,8 @@ import React from 'react';
 import { Carousel , CarouselItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import playIcon from '../Images/play-icon.png';
+import IMDB from '../Images/imdb-logo.png';
+
 
 
 function Courosel(props) {
@@ -14,7 +16,7 @@ function Courosel(props) {
                         <h1>John Wick 3 : Parabellum</h1>
                         <div className="rating">
                             <div className="imdb">
-                                <img src="Images/imdb-logo.png"/>
+                                <img src={IMDB}/>
                                 <span>86.0 / 100</span>
                             </div>
                         </div>
@@ -33,14 +35,14 @@ function Courosel(props) {
                         <h1>Avengers: Endgame</h1>
                         <div className="rating">
                             <div className="imdb">
-                                <img src="Images/imdb-logo.png"/>
+                            <img src={IMDB}/>
                                 <span>84.0 / 100</span>
                             </div>
                             
                         </div>
                         <p>After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</p>
                         <button className="btn">
-                        <img src={playIcon}/>
+                            <img src={playIcon}/>
                             Watch trailer
                         </button>
                     </div>
@@ -53,7 +55,7 @@ function Courosel(props) {
                         <h1>Avatar: The Way of Water</h1>
                         <div className="rating">
                             <div className="imdb">
-                                <img src="Images/imdb-logo.png"/>
+                                <img src={IMDB}/>
                                 <span>78.0 / 100</span>
                             </div>
                             
