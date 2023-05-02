@@ -10,7 +10,7 @@ import { BrowserRouter , Route , Routes} from 'react-router-dom';
 function App() {
     
   return (
-    <BrowserRouter basename='/MovieAmaze-'>
+    <BrowserRouter basename='/MovieAmaze'>
       <div className="App">
         <Navigation/>
         <Routes>
