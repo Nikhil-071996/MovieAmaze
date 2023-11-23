@@ -26,7 +26,7 @@ function Moviepage(props) {
     return (
         <section id='movie-overlay'>
             <div className="poster">
-                <img src={image_path + movieId.backdrop_path} alt={movieId.title} />
+                <img src={image_path + movieId.backdrop_path} className="loading" alt={movieId.title} />
                 <div className="overlay"></div>
             </div>
 
@@ -34,7 +34,7 @@ function Moviepage(props) {
                 <div className="title"><h1>{movieId.title}({movieDate.split('-')[0]})</h1></div>
                 <div className="row1">
                     <div className="col1">
-                        <img src={image_path + movieId.poster_path} alt={movieId.title} />
+                        <img src={image_path + movieId.poster_path} className="loading" alt={movieId.title} />
                     </div>
                     <div className="col2">
                         <div className="title2"><h2>{movieId.title}</h2><span>IMDB {movieId.vote_average}</span></div>

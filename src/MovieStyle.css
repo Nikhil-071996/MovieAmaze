@@ -3,7 +3,6 @@
     background-color: #000;
     margin-bottom: 3rem;
   }
-
 .poster{
     height: 100vh;
     width: 100vw;
@@ -82,7 +81,18 @@
     padding: 2.5rem 0;
   
   }
+.loading {
+  animation: loader 1s linear alternate infinite;
+}
 
+@keyframes loader {
+  0% {
+    background-color: #ccc;
+  }
+  100%{
+    background-color: #fff;
+  }
+}
 
   /* Media Query */
 
@@ -116,5 +126,4 @@
       height: 35vh;
     }
   }
-
 
